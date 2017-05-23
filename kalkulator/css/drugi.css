@@ -1,0 +1,55 @@
+body {
+  background-image: url("galileo.jpg");
+  background-size: cover; }
+  body h2,
+  body h3 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 100%; }
+  body .message {
+    background-color: white;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 23% 70%, 3% 100%, 11% 70%, 0 70%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 23% 70%, 3% 100%, 11% 70%, 0 70%);
+    width: 30%;
+    height: 250px;
+    text-align: center;
+    margin-right: 10%;
+    float: right; }
+    body .message .message-text {
+      margin: 0;
+      display: inline-block;
+      padding: 10px 20px;
+      color: darkblue;
+      font-size: 120%;
+      font-family: 'Varela Round', sans-serif;
+      text-transform: uppercase;
+      float: none; }
+  body .frame {
+    width: 380px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 20px; }
+  body .keys {
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px; }
+  body .display {
+    border: 2px solid black;
+    background-color: beige;
+    font-size: 3em;
+    width: 85%;
+    height: 10px;
+    line-height: 40px;
+    padding: 30px;
+    text-align: right; }
+  body .row span,
+  body .row strong {
+    background-color: darkgrey;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid black;
+    display: inline-block;
+    width: 30px; }
+  body .row strong {
+    background-color: darksalmon; }
+
+/*# sourceMappingURL=drugi.css.map */
